@@ -1,0 +1,25 @@
+@import "./app.css";
+@import "./todo-list.css";
+
+.item {
+  border: solid black 2px;
+  padding: 5px;
+}
+
+.item:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.completed-item {
+  background-color: green;
+  color: white;
+  text-decoration: line-through;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
